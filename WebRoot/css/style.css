@@ -1,0 +1,64 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: #eee url("../image/82fLDu4.jpg") no-repeat center;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+
+.music-player {
+	position: relative;
+	width: 420px;
+	height: 300px;
+	margin: 150px auto;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 0.8);
+	border-radius: 1px;
+	background: #222;
+	overflow: hidden;
+	z-index: 0;
+	background-color: #FFF;
+	border-radius:10px;
+}
+#radio{
+	}
+#top{
+	width: auto;
+	height: 110px;
+	background-color: #982e4b;
+ 
+	}
+#down{
+	width: 420px;
+	height: 190px;
+	background-color:#23B7C6 ;
+	}
+#top_left{
+	height:110px;
+	}
+#top_title{
+	font-family: "Tempus Sans ITC";
+	font-size: 20px;
+	/* [disabled]padding: 20px 0px 0px 50px; */
+	color: #bbbbbb;
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left:30px;
+	margin-bottom:-30px;
+	margin-top:20px;
+	
+	}
+#back{
+	height: auto;
+	width: 20%;
+	height: auto;
+	float: right;
+	margin-top:40px;
+}
